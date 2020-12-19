@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  background-color: black;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 0;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.searchBox{
+  margin-top: 25px;
+}
+
+.Button{
+  margin-left: 10px;
+}
+
+.header2{
+  margin: 10px 90px;
+  border: 2px solid #84B8FB;
+  border-radius: 20%;
+  text-transform: uppercase;
+}
+
+.header2:hover{
+  color: aqua;
+  box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}
+
+.OutputBox{
+  box-shadow: 10px, 20px, grey;
+  border: black;
+  height: 200px;
+  width: 250px;
+  display: block;
+}
+
+.vertical{
+  padding-top: 5px;
+  margin-top: 10px;
+  display: block;
+  flex-flow: row;
+  align-items: center;
+  border:2px transparent;
+  background-image: url('star2.jpeg');
+  height: 300px;
+}
+
+.buttonClass{
+  padding: 10px 10px;
+  margin: 15px 0 15px 30%;
+  border-radius: 3px;
+  color: #3498db;
+  box-shadow: 3px 3px grey;
+  display: flex;
+}
+
+.buttonClass:hover{
+  font-weight: bold;
+  color: darkblue;
+  background-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+}
+
+/* each buttons */
+.perbutton{
+  display: block;
+  border: 1px solid #3498db;
+  margin: 0 30px;
+}
+
+.Main{
+  background-image: url('star3.jpg');
+  margin-top: 0;
+}
+
+.re{
+  color: white
+}
